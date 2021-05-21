@@ -4,12 +4,13 @@ This program can multiply very large numbers--potentially thousands of digits. T
 
 ## Installation and Use
 
-You can run this program on any computer or virtual machine with a Linux kernel. 
-In the command prompt navigate to the folder where the program was downloaded and type:
+This code was written for C++11. You can run this program on any machine with a C++ compiler. If you don't have a C++ compiler on your machine, you could also use an online [C++ compiler](http://cpp.sh/9bkxlj).
+
+To use a C++ compiler from your machine, navigate in the command prompt to the folder where the program is and type:
 
 __g++ -Wall -std=c++11 largeNumberMultiplication.cpp__
 
-This will compile the code so it is executable. The default name for the executable file will be a.out so you can type __./a.out__ to run the program. You will see a cursor running and will be able to input two numbers in the form of __x\*y__. This programming does not check for valid input so you will need to type the input with no spaces or non-integer character and ensuring the multiplication sign is in the middle. The input should be entered with the larger number on the left side.
+This will compile the code so it is executable. The default name for the executable file will be a.out so you can type __./a.out__ to run the program. You will see a cursor running and will be able to input two numbers in the form of __x\*y__. This program does not check for valid input so you will need to type the input with no spaces or non-integer character and ensuring the multiplication sign is in the middle. The input should be entered with the larger number on the left side.
 
 example:
 
